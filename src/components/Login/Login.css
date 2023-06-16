@@ -1,0 +1,19 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 10em;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+}

@@ -1,0 +1,6 @@
+.delete-pop-up-container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}

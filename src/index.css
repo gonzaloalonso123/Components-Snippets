@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f1f1f1;
+}
+
+section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+@media screen and (width > 1000px) {
+  h1 {
+    font-size: 1em;
+  }
+}
+
+.flex-row-far {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}

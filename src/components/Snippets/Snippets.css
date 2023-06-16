@@ -1,0 +1,18 @@
+.snippets-header {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.snippet-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.snippet-card-button-container {
+  display: flex;
+  gap: 1em;
+}
